@@ -1,0 +1,8 @@
+#LWP-Cookies-2.0
+Set-Cookie3: BAIDUID="38331FC7D71847470CF9B4715302FD60:FG=1"; path="/"; domain=".baidu.com"; path_spec; domain_dot; expires="2086-09-26 14:08:20Z"; version=0
+Set-Cookie3: BIDUPSID=38331FC7D71847470CF9B4715302FD60; path="/"; domain=".baidu.com"; path_spec; domain_dot; expires="2086-09-26 14:08:20Z"; version=0
+Set-Cookie3: H_PS_PSSID=1467_26258_21103_20930; path="/"; domain=".baidu.com"; path_spec; domain_dot; discard; version=0
+Set-Cookie3: PSTM=1536404053; path="/"; domain=".baidu.com"; path_spec; domain_dot; expires="2086-09-26 14:08:20Z"; version=0
+Set-Cookie3: BDSVRTM=0; path="/"; domain="www.baidu.com"; path_spec; discard; version=0
+Set-Cookie3: BD_HOME=0; path="/"; domain="www.baidu.com"; path_spec; discard; version=0
+Set-Cookie3: delPer=0; path="/"; domain="www.baidu.com"; expires="2048-08-31 10:54:08Z"; version=0

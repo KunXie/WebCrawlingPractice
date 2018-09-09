@@ -1,0 +1,50 @@
+Collecting tesserocr
+  Using cached https://files.pythonhosted.org/packages/f8/6d/4e81e041f33a4419e59edcb1dbdf3c56e9393f60f5ef531381bd67a1339b/tesserocr-2.3.1.tar.gz
+Building wheels for collected packages: tesserocr
+  Running setup.py bdist_wheel for tesserocr ... error
+  Complete output from command /Users/kunxie/anaconda3/envs/WebCrawlingEnv/bin/python -u -c "import setuptools, tokenize;__file__='/private/var/folders/wj/6d8j8_cn5kj99c7tvrb75w0w0000gn/T/pip-install-hiel4qyc/tesserocr/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /private/var/folders/wj/6d8j8_cn5kj99c7tvrb75w0w0000gn/T/pip-wheel-hm8aa2mc --python-tag cp36:
+  Supporting tesseract v3.05.02
+  Configs from pkg-config: {'include_dirs': ['/usr/local/Cellar/tesseract/3.05.02/include', '/usr/local/Cellar/leptonica/1.76.0/include'], 'library_dirs': ['/usr/local/Cellar/leptonica/1.76.0/lib', '/usr/local/Cellar/tesseract/3.05.02/lib'], 'libraries': ['tesseract', 'lept'], 'cython_compile_time_env': {'TESSERACT_VERSION': 197890}}
+  running bdist_wheel
+  running build
+  running build_ext
+  building 'tesserocr' extension
+  creating build
+  creating build/temp.macosx-10.7-x86_64-3.6
+  gcc -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/Users/kunxie/anaconda3/envs/WebCrawlingEnv/include -arch x86_64 -I/Users/kunxie/anaconda3/envs/WebCrawlingEnv/include -arch x86_64 -I/usr/local/Cellar/tesseract/3.05.02/include -I/usr/local/Cellar/leptonica/1.76.0/include -I/Users/kunxie/anaconda3/envs/WebCrawlingEnv/include/python3.6m -c tesserocr.cpp -o build/temp.macosx-10.7-x86_64-3.6/tesserocr.o -std=c++11 -DUSE_STD_NAMESPACE
+  In file included from tesserocr.cpp:625:
+  In file included from /usr/local/Cellar/tesseract/3.05.02/include/tesseract/genericvector.h:27:
+  In file included from /usr/local/Cellar/tesseract/3.05.02/include/tesseract/tesscallback.h:22:
+  /usr/local/Cellar/tesseract/3.05.02/include/tesseract/host.h:28:10: fatal error: 'cstdint.h' file not found
+  #include <cstdint.h>      // int32_t, ...
+           ^~~~~~~~~~~
+  1 error generated.
+  error: command 'gcc' failed with exit status 1
+  
+  ----------------------------------------
+  Failed building wheel for tesserocr
+  Running setup.py clean for tesserocr
+Failed to build tesserocr
+Installing collected packages: tesserocr
+  Running setup.py install for tesserocr ... error
+    Complete output from command /Users/kunxie/anaconda3/envs/WebCrawlingEnv/bin/python -u -c "import setuptools, tokenize;__file__='/private/var/folders/wj/6d8j8_cn5kj99c7tvrb75w0w0000gn/T/pip-install-hiel4qyc/tesserocr/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/wj/6d8j8_cn5kj99c7tvrb75w0w0000gn/T/pip-record-8gr5k1hc/install-record.txt --single-version-externally-managed --compile:
+    Supporting tesseract v3.05.02
+    Configs from pkg-config: {'include_dirs': ['/usr/local/Cellar/tesseract/3.05.02/include', '/usr/local/Cellar/leptonica/1.76.0/include'], 'library_dirs': ['/usr/local/Cellar/tesseract/3.05.02/lib', '/usr/local/Cellar/leptonica/1.76.0/lib'], 'libraries': ['tesseract', 'lept'], 'cython_compile_time_env': {'TESSERACT_VERSION': 197890}}
+    running install
+    running build
+    running build_ext
+    building 'tesserocr' extension
+    creating build
+    creating build/temp.macosx-10.7-x86_64-3.6
+    gcc -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/Users/kunxie/anaconda3/envs/WebCrawlingEnv/include -arch x86_64 -I/Users/kunxie/anaconda3/envs/WebCrawlingEnv/include -arch x86_64 -I/usr/local/Cellar/tesseract/3.05.02/include -I/usr/local/Cellar/leptonica/1.76.0/include -I/Users/kunxie/anaconda3/envs/WebCrawlingEnv/include/python3.6m -c tesserocr.cpp -o build/temp.macosx-10.7-x86_64-3.6/tesserocr.o -std=c++11 -DUSE_STD_NAMESPACE
+    In file included from tesserocr.cpp:625:
+    In file included from /usr/local/Cellar/tesseract/3.05.02/include/tesseract/genericvector.h:27:
+    In file included from /usr/local/Cellar/tesseract/3.05.02/include/tesseract/tesscallback.h:22:
+    /usr/local/Cellar/tesseract/3.05.02/include/tesseract/host.h:28:10: fatal error: 'cstdint.h' file not found
+    #include <cstdint.h>      // int32_t, ...
+             ^~~~~~~~~~~
+    1 error generated.
+    error: command 'gcc' failed with exit status 1
+    
+    ----------------------------------------
+Command "/Users/kunxie/anaconda3/envs/WebCrawlingEnv/bin/python -u -c "import setuptools, tokenize;__file__='/private/var/folders/wj/6d8j8_cn5kj99c7tvrb75w0w0000gn/T/pip-install-hiel4qyc/tesserocr/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/wj/6d8j8_cn5kj99c7tvrb75w0w0000gn/T/pip-record-8gr5k1hc/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /private/var/folders/wj/6d8j8_cn5kj99c7tvrb75w0w0000gn/T/pip-install-hiel4qyc/tesserocr/
